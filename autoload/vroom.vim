@@ -93,7 +93,7 @@ if !exists("g:vroom_command_prefix")
 endif
 
 if !exists("g:vroom_test_unit_command")
-  let g:vroom_test_unit_command = 'ruby -Itest '
+  let g:vroom_test_unit_command = 'rake test TEST='
 endif
 
 if !exists("g:vroom_rspec_version")
